@@ -1,4 +1,15 @@
 baseURL = "http://sonickenbaker.github.io/"
 languageCode = "en-us"
 title = "My Personal Website"
-theme = "ananke"
+theme = "hugo-theme-zen"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about/"
+
+  [[menu.main]]
+    name = "posts"
+    url = "/posts/"
