@@ -1,7 +1,7 @@
-baseURL = "http://sonickenbaker.github.io/"
+baseURL = "https://sonickenbaker.com/"
 languageCode = "en-us"
 title = "My Personal Website"
-theme = "zen"
+theme = "paper"
 
 [menu]
 
