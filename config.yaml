@@ -1,15 +1,23 @@
 baseURL: "https://sonickenbaker.com/"
 languageCode: "en-us"
 title: "Tech and Stuff"
-theme: "paper"
+theme: PaperMod
 
+params:
+  description: A site about technical stuff
+  author: ["sonickenbaker"]
+  enableEmoji: true
+  assets:
+    favicon: /favicon/favicon.ico
+    favicon16x16: /favicon/favicon-16x16.png
+    favicon32x32: /favicon/favicon-32x32.png
+    apple_touch_icon: /favicon/apple-touch-icon.png
 
 menu:
-  - menu.main:
-      identifier: "about"
-      name: "about"
-      url: "/about/"
-  - menu.main:
-      identifier: "posts"
-      name: "posts"
-      url: "/posts/"
+  main:
+    - identifier: about
+      name: about
+      url: /about/
+    - identifier: posts
+      name: posts
+      url: /posts/
