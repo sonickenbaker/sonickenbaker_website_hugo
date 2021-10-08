@@ -4,12 +4,12 @@ title = "My Personal Website"
 theme = "paper"
 
 [menu]
-
   [[menu.main]]
     identifier = "about"
     name = "about"
     url = "/about/"
 
   [[menu.main]]
+    identifier = "posts"
     name = "posts"
     url = "/posts/"
