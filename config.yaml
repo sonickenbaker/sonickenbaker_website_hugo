@@ -2,6 +2,7 @@ baseURL: "https://sonickenbaker.com/"
 languageCode: "en-us"
 title: "Tech and Stuff"
 theme: PaperMod
+paginate: 5
 
 params:
   description: A site about technical stuff
@@ -12,12 +13,22 @@ params:
     favicon16x16: /favicon/favicon-16x16.png
     favicon32x32: /favicon/favicon-32x32.png
     apple_touch_icon: /favicon/apple-touch-icon.png
+  homeInfoParams:
+      Title: "Tech and Stuff"
+      Content: >
+        **Tech and Stuff** is a blog site about Development and DevOps stuff
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
 
 menu:
   main:
-    - identifier: about
-      name: about
+    - name: About
       url: /about/
-    - identifier: posts
-      name: posts
+    - name: Posts
       url: /posts/
+    - name: Search
+      url: search/
