@@ -1,0 +1,15 @@
+baseURL: "https://sonickenbaker.com/"
+languageCode: "en-us"
+title: "Tech and Stuff"
+theme: "paper"
+
+
+menu:
+  - menu.main:
+      identifier: "about"
+      name: "about"
+      url: "/about/"
+  - menu.main:
+      identifier: "posts"
+      name: "posts"
+      url: "/posts/"
