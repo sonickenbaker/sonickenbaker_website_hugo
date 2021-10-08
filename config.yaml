@@ -8,15 +8,24 @@ params:
   description: A site about technical stuff
   author: ["sonickenbaker"]
   enableEmoji: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
   assets:
     favicon: /favicon/favicon.ico
     favicon16x16: /favicon/favicon-16x16.png
     favicon32x32: /favicon/favicon-32x32.png
     apple_touch_icon: /favicon/apple-touch-icon.png
   homeInfoParams:
-      Title: "Tech and Stuff"
-      Content: >
-        **Tech and Stuff** is a blog site about Development and DevOps stuff
+    Title: "Tech and Stuff"
+    Content: >
+      **Tech and Stuff** is a blog site about Development and DevOps stuff
+  socialIcons:
+    - name: github
+      url: "https://github.com/sonickenbaker/sonickenbaker_website_hugo"
+  editPost:
+    URL: "https://github.com/sonickenbaker/sonickenbaker_website_hugo/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 
 outputs:
     home:
