@@ -3,11 +3,10 @@ title: "Node Dependencies"
 date: 2021-10-14T10:37:27+02:00
 draft: false
 ---
-# Node.js dependencies
 There are several dependencies that Node.js relies on to work the way it does.
 To get more information on Node.js dependencies, you can take a look [here](https://nodejs.org/en/docs/meta/topics/dependencies).
 
-## Find library dependencies used by installed Nodejs
+## Find library dependencies used by an installed Nodejs interpreter
 One way to check those dependencies is to issue this command:
 ```bash
 node -e "console.log(process.versions)"
