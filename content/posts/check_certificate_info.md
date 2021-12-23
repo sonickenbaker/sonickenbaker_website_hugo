@@ -1,5 +1,5 @@
 ---
-title: "Check_certificate_info"
+title: "Ho to check certificate information"
 date: 2021-12-23T12:28:45+01:00
 draft: false
 ---
